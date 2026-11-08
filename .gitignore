@@ -7,12 +7,16 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Large datasets
-data/*.csv
-
-# Trained models
-models/*.joblib
-models/*.pkl
-
 # Temporary files
 *.log
+
+# Dataset
+data/*.csv
+
+# Model checkpoints
+models/*.pkl
+models/*.joblib
+
+# Exceptions for documentation
+!data/README.md
+!models/README.md
